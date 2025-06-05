@@ -1,3 +1,5 @@
 ﻿# PublishingArchive_android_app
 
-## mock api for authors list 
+## TODO:
+* mock api for authors list
+* make a note about using R&M themes 
