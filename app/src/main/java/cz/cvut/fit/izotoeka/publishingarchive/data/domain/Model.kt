@@ -1,4 +1,4 @@
-package cz.cvut.fit.izotoeka.publishingarchive.domain
+package cz.cvut.fit.izotoeka.publishingarchive.data.domain
 
 data class Book(
     val id: String,
