@@ -1,4 +1,4 @@
-package cz.cvut.fit.izotoeka.publishingarchive.domain
+package cz.cvut.fit.izotoeka.publishingarchive.data.domain
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
