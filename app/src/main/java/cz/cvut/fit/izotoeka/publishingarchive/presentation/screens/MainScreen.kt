@@ -1,4 +1,4 @@
-package cz.cvut.fit.izotoeka.publishingarchive.screens
+package cz.cvut.fit.izotoeka.publishingarchive.presentation.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.RowScope

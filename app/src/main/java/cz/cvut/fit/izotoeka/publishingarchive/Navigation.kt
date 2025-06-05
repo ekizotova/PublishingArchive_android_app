@@ -5,7 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import cz.cvut.fit.izotoeka.publishingarchive.screens.Screens
+import cz.cvut.fit.izotoeka.publishingarchive.presentation.screens.Screens
 
 @Composable
 fun Navigation(
@@ -17,8 +17,25 @@ fun Navigation(
            // ListScreen(navController)
         }
 
-        //todo: add publish screen
-        // todo: add a book screen
+        composable<Screens.TopLevel.Authors> {
+            //  AuthorScreen(navController)
+        }
+
+        composable("book/{bookId}") { backStackEntry ->
+            val bookId = backStackEntry.arguments?.getString("bookId")!!
+            //BookDetailScreen(bookId)
+        }
+        composable("book") {
+        //    BookScreen()
+        }
+        composable("account") {
+          //  AccountScreen()
+        }
+        composable("publication") {
+            //PublicationScreen()
+        }
+
+        //todo: don't forget search screen
 
             /*
         composable<Screens.CharacterDetail> { entry ->
@@ -29,9 +46,6 @@ fun Navigation(
             SearchScreen(navController)
         }
         */
-        composable<Screens.TopLevel.Authors> {
-          //  AuthorScreen(navController)
-        }
 
     }
 }

@@ -1,4 +1,4 @@
-package cz.cvut.fit.izotoeka.publishingarchive.screens
+package cz.cvut.fit.izotoeka.publishingarchive.presentation.screens
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
