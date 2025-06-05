@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PublishingArchive</string>
+    <string name="books">Books</string>
+    <string name="authors">Authors</string>
 </resources>
