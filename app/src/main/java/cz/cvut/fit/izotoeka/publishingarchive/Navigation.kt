@@ -17,6 +17,9 @@ fun Navigation(
            // ListScreen(navController)
         }
 
+        //todo: add publish screen
+        // todo: add a book screen
+
             /*
         composable<Screens.CharacterDetail> { entry ->
             DetailScreen(navController)
